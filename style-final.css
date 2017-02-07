@@ -12,6 +12,19 @@ body {
 
 nav ul li {
   display: inline;
+  list-style-type: none;
+}
+
+.cards div {
+  float:left;
+}
+
+.cards div:nth-child(odd){
+  background-color: #eee;
+}
+
+.cards div:nth-child(even){
+  background-color: #bbb;
 }
 
 .card {
@@ -20,14 +33,32 @@ nav ul li {
   border-radius: 5px;
 }
 
+.card h3 {
+  margin-top: 0;
+}
+
 .card > img {
   height: 200px;
   width: 150px;
 }
 
+.rules {
+  clear: both;
+}
+
+#logo {
+  width: 50%;
+}
+
 footer {
   background-color: #F15323;
   width: 100%;
+/*
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+*/
 }
 
 footer p {
