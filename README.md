@@ -2,8 +2,8 @@
 
 # setup 
 
-- git clone this repo
+- ```git clone https://github.com/craigquincy/exploding-kittens.git```
 - ```npm install lite-server -g```
-- cd to your project fold
+- ```cd exploding-kittens```
 - ```atom .```
 - ```lite-server```
