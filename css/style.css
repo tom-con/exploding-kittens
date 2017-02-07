@@ -1,0 +1,47 @@
+body {
+  background-color: #000;
+  font-family: arial;
+  color: #ccc;
+}
+
+.main {
+  margin: 5rem;
+  border: 1px solid #ccc;
+  padding: 2em;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.cards div {
+  float:left;
+}
+
+.card {
+  height: 200px;
+  width: 150px;
+  margin: 1em;
+}
+
+.rules {
+  clear: both;
+}
+
+footer {
+  background-color: #F15323;
+  width: 100%;
+/*
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+*/
+}
+
+footer p {
+  padding: 20px;
+  font-style: italic;
+  color: #000;
+}
