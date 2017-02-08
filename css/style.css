@@ -14,10 +14,35 @@ nav ul li {
   display: inline;
 }
 
+nav ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:visited {
+  text-decoration: underline;
+  color:white;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #44BF00;
+}
+
+nav ul li a:active {
+  text-decoration: none;
+  color: #F15323;
+}
+
 .card {
-  margin: 2em;
+  margin: 1em;
   padding: 2em;
   border-radius: 5px;
+  float: left;
+}
+
+.card:nth-child(odd) {
+  background-color: white;
 }
 
 .card > img {
@@ -28,6 +53,10 @@ nav ul li {
 footer {
   background-color: #F15323;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 footer p {
@@ -35,3 +64,23 @@ footer p {
   font-style: italic;
   color: #000;
 }
+
+input[placeholder*="e"] {
+  background-color: #44BF00;
+}
+
+.clear {
+  clear: both;
+}
+
+/*#logo {
+  position: relative;
+  top: 60px;
+  left: 0;
+}*/
+
+/*.about {
+  position: relative;
+  top: 120px;
+  left: 0;
+}*/
